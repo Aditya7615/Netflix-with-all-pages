@@ -12,8 +12,6 @@
     
 }
 
-/* navbar starts */
-
 .anchorHov:hover{
     text-decoration: underline !important;
     color: #000000ab !important;
@@ -27,11 +25,6 @@
 #signIn:hover{
     background-color: #c11119 !important;
 }
-
-/* navbar ends */
-
-
-/* searchbar section starts */
 
 .searchControlWrapper{
     padding: 2px;
@@ -59,19 +52,9 @@
 }
 
 
-/* searchbar section ends */
-
-
-/* help center search starts */
-
 #radialBg{
     background: radial-gradient(300% 100% at center top, rgba(169, 185, 250, 0.15) 0%, rgba(251, 251, 251, 0) 25%) !important;
 }
-
-/* help center search ends */
-
-
-/* main content starts */
 
 .anchorLine:hover{
     text-decoration: underline !important;
@@ -118,17 +101,6 @@
 }
 
 
-
-
-/* main content ends */
-
-
-
-
-
-
-/* accordion starts */
-
 .accoHelp{
     border: 1px solid rgb(128 128 128 / 40%);
 }
@@ -145,10 +117,6 @@
     outline: 0;
     box-shadow: none !important;
 }
-/* accordion ends */
-
-
-/* quick links */
 
 .contactBtn:hover{
     background-color: rgb(0 0 0 / 70%) !important;
@@ -160,11 +128,6 @@
     }
 }
 
-/* quick links */
-
-
-
-/* footer starts */
 
 .footer{
     background-color: #fafafa;
@@ -199,5 +162,3 @@
 .select:hover #downArrow > path{
     fill: white;
 }
-
-/* footer ends */
