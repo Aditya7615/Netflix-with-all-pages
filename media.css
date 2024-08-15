@@ -15,7 +15,6 @@ html{
     background-color: rgb(22, 22, 22);
 }
 
-/* header starts */
 
 #mainBg{
     background-color: #23232338 !important;
@@ -244,11 +243,6 @@ html{
     background-color: rgb(255 255 255 / 10%);
 }
 
-
-/* header ends */
-
-/* hero starts */
-
 .heroSection{
     width: 100%;
     background-image: url(streams-bg.png);
@@ -260,8 +254,6 @@ html{
     max-width: 35rem;
     padding: 128px 16px 48px 16px !important;
 }
-
-/* searchbar section starts */
 
 .searchControlWrapper{
     border-radius: 4px;
@@ -311,9 +303,6 @@ html{
     background-color: rgb(255 255 255 / 10%);
 }
 
-/* searchbar section ends */
-
-
 #filmSection{
     background-color: rgb(22, 22, 22);
     border-bottom: 1px solid #ffffff33;
@@ -361,9 +350,7 @@ html{
 #filmBtn:hover{
     background-color: rgb(57, 82, 177) !important;
 }
-/* hero ends */
 
-/* cards starts */
 
 #cardMain{
     background-color: rgb(22, 22, 22);
@@ -382,7 +369,6 @@ html{
 .cardText{
     font-size: 14px;
 }
-/* cards ends */
 
 #showHide{
     display: none;
@@ -599,8 +585,6 @@ html{
     background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgb(22, 22, 22) 100%);
 }
 
-/* sidebar starts */
-
 #sideBar{
     z-index: 500;
     pointer-events: none;
@@ -646,11 +630,6 @@ html{
 .sideListItems{
     font-size: 18px;
 }
-
-/* sidebar ends */
-
-
-/* latestNews starts */
 
 #latestNewsMain{
     background-color: #232323;
@@ -708,10 +687,6 @@ html{
 .newRmAnchor{
     font-size: 14px !important;
 }
-/* latestNews ends */
-
-
-/* company assets starts */
 
 #assetsOuter{
     background-image: url(company_assets_bg.png);
@@ -729,11 +704,6 @@ html{
 .goAnchor{
     font-size: 15px !important;
 }
-
-/* company assets ends */
-
-
-/* footer starts */
 
 #footMain{
     background-color: rgb(22, 22, 22);
@@ -760,5 +730,3 @@ html{
         width: 100%;
     }
 }
-
-/* footer ends */
