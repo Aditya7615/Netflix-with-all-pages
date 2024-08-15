@@ -12,7 +12,6 @@
     
 }
 
-/* navbar starts */
 
 .anchorHov:hover{
     text-decoration: underline !important;
@@ -28,10 +27,6 @@
     background-color: #c11119 !important;
 }
 
-/* navbar ends */
-
-
-/* searchbar section starts */
 
 .searchControlWrapper{
     padding: 2px;
@@ -49,10 +44,6 @@
     border-color: transparent;
     outline: transparent;
 }
-
-/* searchbar section ends */
-
-/* main content starts */
 
 .leftPane{
     width: 68%;
@@ -77,10 +68,6 @@
 .articleTopics{
     border-top: 6px solid #e50914;
 }
-/* main content ends */
-
-
-/* footer starts */
 
 .footer{
     background-color: #fafafa;
@@ -115,5 +102,3 @@
 .select:hover #downArrow > path{
     fill: white;
 }
-
-/* footer ends */
