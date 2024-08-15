@@ -5,16 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix Media Center</title>
 
-    <!-- css -->
     <link rel="stylesheet" href="media.css">
 
-    <!-- favicon -->
     <link rel="shortcut icon" href="img/apple-icon-57x57.png" type="image/x-icon">
-    
-    <!-- bs5 -->
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    
-    <!-- google fonts -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Commissioner:wght@100;300;500;700;900&display=swap" rel="stylesheet">
@@ -24,8 +20,6 @@
 
     <div class="container-fluid p-0 overflow-hidden" id="mainBg">
 
-
-        <!-- navbar starts -->
 
         <header id="header" class="container-fluid p-0 px-4 d-flex align-items-center position-fixed top-0">
             <nav class="navbar container-fluid w-100 navbar-expand-lg bg-transparent py-4 d-flex align-items-center position-relative" id="navBar">
@@ -70,8 +64,6 @@
                                 <span class="text-white">Resources</span>
                                 <span><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 320 512"><path fill="white" d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z"/></svg></span>
 
-                                <!-- resource drop starts -->
-
                                 <div class="resource position-absolute rounded-1" id="resDrop">
                                     <ul class="list-unstyled m-0">
                                         <li class="d-flex justify-content-between px-3 py-2">
@@ -84,8 +76,6 @@
                                         </li>
                                     </ul>
                                 </div>
-
-                                <!-- resource drop ends -->
                             </button>
 
                             <a class="anchorBtn rounded-1 text-white btn fw-medium bg-transparent py-1" style="border: 1px solid #ffffff66;">Apply</a>
@@ -118,11 +108,6 @@
 
                 </div>
 
-                
-
-
-
-                <!-- media query srchbar starts -->
 
                 <form class="blackSearchBarMedia position-absolute top-0 end-0 d-flex flex-row align-items-center" id="blackSearchBarMedia">
                     <button class="sBtn"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="17" x="0" y="0" viewBox="0 0 6.35 6.35" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g transform="matrix(1.1700000000000017,0,0,1.1700000000000017,-0.5379181456565929,-0.5375339913368267)"><path d="M2.894.511a2.384 2.384 0 0 0-2.38 2.38 2.386 2.386 0 0 0 2.38 2.384c.56 0 1.076-.197 1.484-.523l.991.991a.265.265 0 0 0 .375-.374l-.991-.992a2.37 2.37 0 0 0 .523-1.485C5.276 1.58 4.206.51 2.894.51zm0 .53c1.026 0 1.852.825 1.852 1.85S3.92 4.746 2.894 4.746s-1.851-.827-1.851-1.853.825-1.852 1.851-1.852z" paint-order="stroke fill markers" fill="#ffffff" opacity="1" data-original="#000000" class=""></path></g></svg></button>
@@ -132,24 +117,9 @@
                     <a class="sBtn d-flex align-items-center justify-content-center closeBtn" onclick="closeBtn()"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" x="0" y="0" viewBox="0 0 329.269 329" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M194.8 164.77 323.013 36.555c8.343-8.34 8.343-21.825 0-30.164-8.34-8.34-21.825-8.34-30.164 0L164.633 134.605 36.422 6.391c-8.344-8.34-21.824-8.34-30.164 0-8.344 8.34-8.344 21.824 0 30.164l128.21 128.215L6.259 292.984c-8.344 8.34-8.344 21.825 0 30.164a21.266 21.266 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25l128.21-128.214 128.216 128.214a21.273 21.273 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25 8.343-8.34 8.343-21.824 0-30.164zm0 0" fill="#ffffff" opacity="1" data-original="#000000" class=""></path></g></svg></a>
                 </form>
 
-                
-
-                <!-- media query srchbar ends -->
-
-
-
-
-
-
-
 
                 
             </nav>
-
-
-
-
-            <!-- secondNav starts -->
 
             <div class="container-fluid p-0 position-fixed top-0 start-0 px-3" id="navBarTwo">
 
@@ -182,7 +152,6 @@
                         <span onclick="sideBarClose()"><svg id="closeSide" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="16" x="0" y="0" viewBox="0 0 329.269 329" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M194.8 164.77 323.013 36.555c8.343-8.34 8.343-21.825 0-30.164-8.34-8.34-21.825-8.34-30.164 0L164.633 134.605 36.422 6.391c-8.344-8.34-21.824-8.34-30.164 0-8.344 8.34-8.344 21.824 0 30.164l128.21 128.215L6.259 292.984c-8.344 8.34-8.344 21.825 0 30.164a21.266 21.266 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25l128.21-128.214 128.216 128.214a21.273 21.273 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25 8.343-8.34 8.343-21.824 0-30.164zm0 0" fill="#ffffff" opacity="1" data-original="#000000" class=""></path></g></svg></span>
                     </button>
 
-                    <!-- srchbar2 starts -->
                     <form class="blackSearchBarMedia2 position-absolute top-0 start-0 d-flex flex-row align-items-center" id="blackSearchBarMedia2">
 
                         <a class="sBtn d-flex justify-content-center align-items-center"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="21" height="19" x="0" y="0" viewBox="0 0 6.35 6.35" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g transform="matrix(1.1700000000000017,0,0,1.1700000000000017,-0.5379181456565929,-0.5375339913368267)"><path d="M2.894.511a2.384 2.384 0 0 0-2.38 2.38 2.386 2.386 0 0 0 2.38 2.384c.56 0 1.076-.197 1.484-.523l.991.991a.265.265 0 0 0 .375-.374l-.991-.992a2.37 2.37 0 0 0 .523-1.485C5.276 1.58 4.206.51 2.894.51zm0 .53c1.026 0 1.852.825 1.852 1.85S3.92 4.746 2.894 4.746s-1.851-.827-1.851-1.853.825-1.852 1.851-1.852z" paint-order="stroke fill markers" fill="#ffffff" opacity="1" data-original="#000000"></path></g></svg></a>
@@ -191,21 +160,12 @@
 
                         <a class="sBtn d-flex justify-content-center align-items-center closeBtn" onclick="closeBtn()"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" x="0" y="0" viewBox="0 0 329.269 329" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M194.8 164.77 323.013 36.555c8.343-8.34 8.343-21.825 0-30.164-8.34-8.34-21.825-8.34-30.164 0L164.633 134.605 36.422 6.391c-8.344-8.34-21.824-8.34-30.164 0-8.344 8.34-8.344 21.824 0 30.164l128.21 128.215L6.259 292.984c-8.344 8.34-8.344 21.825 0 30.164a21.266 21.266 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25l128.21-128.214 128.216 128.214a21.273 21.273 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25 8.343-8.34 8.343-21.824 0-30.164zm0 0" fill="#ffffff" opacity="1" data-original="#000000" class=""></path></g></svg></a>
                     </form>
-                    <!-- srchbar2 ends -->
 
                 </nav>
             </div>
 
-            <!-- secondNav ends -->
-
-
-            
-
 
         </header>
-
-
-        <!-- english dropdown starts -->
 
         <div class="container-fluid p-0 d-flex flex-column position-absolute" id="englishDropdown">
             <div class="container-fluid p-0" id="langHeader">
@@ -236,11 +196,6 @@
                 </div>
             </div>
         </div>
-
-    <!-- english dropdown ends -->
-
-
-        <!-- country dropdown starts -->
 
         <div class="container-fluid p-0 d-flex flex-column position-absolute" id="countryDropdown">
             <div class="continer fluid p-0" id="countHeader">
@@ -429,12 +384,6 @@
                 </div>
             </div>
         </div>
-        <!-- country dropdown ends -->
-        
-        <!-- navbar ends -->
-
-        
-        <!-- sidebar starts -->
 
             <div class="position-fixed start-0 top-0 overflow-y-auto overflow-x-hidden" id="sideBar">
                 <aside>
@@ -484,16 +433,8 @@
                 </aside>
             </div>
 
-        <!-- sidebar endts -->
-
-       
-
-
-        <!-- main section starts -->
         <div class="container-fluid p-0 d-flex flex-column align-items-center w-100 bg-transparent" id="secondContainer">
 
-            <!-- hero section starts -->
-            
             <section class="heroSection container-fluid p-0">
                 <div class="container-fluid p-0 d-flex justify-content-center flex-column align-items-center text-center" id="heroSectionInner">
                     <h1 class="display-6 fw-semibold text-white">Discover stories and experiences to share with India.</h1>
@@ -510,11 +451,6 @@
 
                 
             </section>
-            
-
-            <!-- hero section ends -->
-
-            <!-- films div starts -->
 
             <div class="container-fluid p-3" id="filmSection">
                 <div class="container-fluid p-0 p-2 py-3">
@@ -570,15 +506,9 @@
                 </div>
             </div>
 
-            <!-- films div ends -->
-
-
-            <!-- movie cards starts -->
-
             <div class="container-fluid" id="cardMain">
                 <div class="container my-5">
 
-                    <!-- february -->
                     <div class="container-fluid p-0" id="febCard">
                         <div class="row gap-5 justify-content-center">
                             
@@ -748,10 +678,6 @@
                             </div>
 
 
-                            
-
-                            <!-- component to show -->
-
                             <div id="showHide">
                                 <div class="showHide row gap-5 justify-content-center">
                                     <div class="card bg-transparent border-0 text-start rounded-0 p-0" id="card">
@@ -844,7 +770,6 @@
                         </div>   
                     </div>
 
-                    <!-- march -->
                     <div class="container-fluid p-0" id="marchCard">
                         <div class="row gap-5 justify-content-center">
                             
@@ -942,13 +867,7 @@
                                     <p class="card-text cardText text-white fw-light">March 8, 2024</p>
                                 </div>
                             </div>
-                            
-
-                            
-
-
-
-
+ 
                             <div class="card bg-transparent border-0 text-start rounded-0 p-0" id="card">
                                 <img class="img-fluid rounded-0" src="https://dnm.nflximg.net/api/v6/WNk1mr9x_Cd_2itp6pUM7-lXMJg/AAAABSPLnNQVyNWZHME0TkwkzBdAEjfljNAvRzkw8mfWyJ62d-D8EJQAc7wPzxRwcDXmbv4dkF7J69xLvCrwwaszvsHppjOeff4D74WtYxsljhzVwqJDIvg-mQFgb7DqaaaWUNV78A.jpg?r=4d2" alt="Title" />
                                 <div class="card-body p-0 py-2">
@@ -977,11 +896,6 @@
                                 </div>
                             </div>
                             
-
-                            
-
-
-
 
                             <div class="card bg-transparent border-0 text-start rounded-0 p-0" id="card">
                                 <img class="img-fluid rounded-0" src="https://dnm.nflximg.net/api/v6/WNk1mr9x_Cd_2itp6pUM7-lXMJg/AAAABRvrNUxz3K5teieCvlX9ZGan2XDBZfA2ksHhTuFzM0nlL1SDJ5LlLgfoQE65VtTLf7x-EQNsj4s4Jvdjzikq7f-fLnRjoa0EkU_6F8A_hYdmxGpagXODAiy9O6uW5rorqSgVVQ.jpg?r=e58" alt="Title" />
@@ -1012,10 +926,6 @@
                             </div>
 
 
-                            
-
-                            <!-- component to show -->
-
                             <div id="showHide2">
                                 <div class="showHide row gap-5 justify-content-center">
                                     <div class="card bg-transparent border-0 text-start rounded-0 p-0" id="card">
@@ -1045,12 +955,7 @@
                                             <p class="card-text cardText text-white fw-light">March 8, 2024</p>
                                         </div>
                                     </div>
-                                    
-
-                                    
-
-
-
+       
                                     <div class="card bg-transparent border-0 text-start rounded-0 p-0" id="card">
                                         <img class="img-fluid rounded-0" src="https://dnm.nflximg.net/api/v6/WNk1mr9x_Cd_2itp6pUM7-lXMJg/AAAABWgeu1pKLZZKZX5kTqp7UCX_mm9YgM4ABg9XBwOeo_88jXI2UEfvjJCdAaU-OMrDhtXwTbJlq1Fi2aCI83MXldQmqdIQhYE6Khbcg478-nIFDgebCFoNtxhvn9nuMxJpUnuSPA.jpg?r=822" alt="Title" />
                                         <div class="card-body p-0 py-2">
@@ -1078,9 +983,6 @@
                                             <p class="card-text cardText text-white fw-light">March 8, 2024</p>
                                         </div>
                                     </div>
-                                    
-
-
 
 
                                     <div class="card bg-transparent border-0 text-start rounded-0 p-0" id="card">
@@ -1112,9 +1014,6 @@
                                     </div>
                                     
 
-
-
-
                                     <div class="card bg-transparent border-0 text-start rounded-0 p-0" id="card">
                                         <img class="img-fluid rounded-0" src="https://d2ajy4iry6zk4j.cloudfront.net/pubvat/81333845/thumbnail/small/fk8w75t74" alt="Title" />
                                         <div class="card-body p-0 py-2">
@@ -1142,14 +1041,8 @@
                 </div>
             </div>
 
-            <!-- movie cards ends -->
-            
         </div>
-        <!-- main section starts -->
 
-
-
-        <!-- latestNews starts -->
 
         <div class="container-fluid p-0" id="latestNewsMain">
             <div class="container-fluid p-0 py-5 ">
@@ -1195,12 +1088,6 @@
             </div>
         </div>
 
-        <!-- latestNews ends -->
-
-
-
-        <!-- company assets starts -->
-
         <div class="container-fluid p-0" id="assetsOuter">
             <div class="container-fluid p-0 d-flex text-end flex-column gap-2" id="assetsMain">
                 <h2 class="text-white">Looking for company assets?</h2>
@@ -1211,13 +1098,6 @@
                 
             </div>
         </div>
-
-        <!-- company assets ends -->
-
-
-
-        <!-- footer starts -->
-
 
         <div class="container-fluid p-0 px-5 py-3 text-white" id="footMain">
             <div class="container-fluid p-0">
@@ -1261,17 +1141,11 @@
                 </footer>
             </div>
         </div>
-        
-
-        <!-- footer ends -->
-
-
-
 
     </div>
-    <!-- js -->
+
     <script src="media.js"></script>
-    <!-- bs5 js -->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
 </body>
